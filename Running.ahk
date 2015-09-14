@@ -30,6 +30,9 @@ Numpad2::
 	GetAskInfo(ID)
 	Name:= ID[1]
 	IDs:= ID[2]
+	array:= Match(Name, "([a-zA-Z0-9]+)(_)?([a-zA-Z0-9]+)?")
+	Name:= array[1]
+	SendMessage, 0x50,, 0x4090409,, A
 	SendInput {F6}/pm %IDs% %Name%, Приятной игры на 14 сервере
 return
 
