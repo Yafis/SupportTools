@@ -26,7 +26,7 @@ Numpad1::
 	SendInput {F6}/pm %IDs%{space}
 return
 
-XButton2::
+Numpad2::
 	GetAskInfo(ID)
 	Name:= ID[1]
 	IDs:= ID[2]
