@@ -22,7 +22,7 @@ Match(text, regexp) {
 
 Numpad1::
 	GetAskInfo(ID)
-	IDs:= ID[1]
+	IDs:= ID[2]
 	SendInput {F6}/pm %IDs%{space}
 return
 
